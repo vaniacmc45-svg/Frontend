@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados Fictício</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="principal">
+        <h1>Cadastrar Novo Usuário</h1>
+        <form class="formulario">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome Completo">
+            <label for="cargo">Cargo</label>
+            <input type="text" id="cargo" placeholder="Cargo ou Função">
+            <button type="submit">Salvar no sistema</button>
+        </form>
+    </div>
+    <div class="principal">
+        <h2>Usuários Cadastrados</h2>
+        <ul id="lista virtual"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
